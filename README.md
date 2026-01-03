@@ -1,190 +1,178 @@
-# Chatbot-Project-HALO-
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/ignore_list.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2026-01-03T06:57:20.823693Z",
-"filename": "settings.py",
-"func_name": "_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/languages.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2026-01-03T06:57:20.824376Z",
-"filename": "settings.py",
-"func_name": "_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/parsers.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2026-01-03T06:57:20.825139Z",
-"filename": "settings.py",
-"func_name": "_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/prompts.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2026-01-03T06:57:20.825954Z",
-"filename": "settings.py",
-"func_name": "_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/tool_config.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2026-01-03T06:57:20.831493Z",
-"filename": "settings.py",
-"func_name": "_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/tooling.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2026-01-03T06:57:20.833168Z",
-"filename": "settings.py",
-"func_name": "_load_settings",
-"lineno": 276
-}
-{
-"event": "Pydantic settings: dict_keys(['config', 'ignore_list', 'languages', 'parsers', 'prompts', 'tool_config', 'tooling'])",
-"level": "info",
-"logger": "readmeai.cli.main",
-"timestamp": "2026-01-03T06:57:20.835182Z",
-"filename": "main.py",
-"func_name": "main",
-"lineno": 86
-}
-{
-"event": "Repository settings: repository='https://github.com/BerlinImmanuelSanthosh/Chatbot-Project-HALO-' full_name='BerlinImmanuelSanthosh/Chatbot-Project-HALO-' host_domain='github.com' host='github' name='Chatbot-Project-HALO-'",
-"level": "info",
-"logger": "readmeai.cli.main",
-"timestamp": "2026-01-03T06:57:20.835399Z",
-"filename": "main.py",
-"func_name": "main",
-"lineno": 87
-}
-{
-"event": "LLM API settings: api='GEMINI' base_url='https://api.openai.com/v1/chat/completions' context_window=3900 encoder='cl100k_base' host_name=Url('https://api.openai.com/') localhost=Url('http://localhost:11434/') model='gemini-1.5-pro' path='v1/chat/completions' temperature=0.1 tokens=699 top_p=0.9",
-"level": "info",
-"logger": "readmeai.cli.main",
-"timestamp": "2026-01-03T06:57:20.835579Z",
-"filename": "main.py",
-"func_name": "main",
-"lineno": 88
-}
-{
-"event": "Total files analyzed: 1",
-"level": "info",
-"logger": "readmeai.__main__",
-"timestamp": "2026-01-03T06:57:21.829619Z",
-"filename": "__main__.py",
-"func_name": "log_repository_context",
-"lineno": 102
-}
-{
-"event": "Metadata extracted: {'cicd': {}, 'containers': {}, 'documentation': {}, 'package_managers': {}}",
-"level": "info",
-"logger": "readmeai.__main__",
-"timestamp": "2026-01-03T06:57:21.829771Z",
-"filename": "__main__.py",
-"func_name": "log_repository_context",
-"lineno": 103
-}
-{
-"event": "Dependencies: ['jupyternotebook']",
-"level": "info",
-"logger": "readmeai.__main__",
-"timestamp": "2026-01-03T06:57:21.829879Z",
-"filename": "__main__.py",
-"func_name": "log_repository_context",
-"lineno": 104
-}
-{
-"event": "Languages: {'ipynb': 1}",
-"level": "info",
-"logger": "readmeai.__main__",
-"timestamp": "2026-01-03T06:57:21.829971Z",
-"filename": "__main__.py",
-"func_name": "log_repository_context",
-"lineno": 105
-}
-{
-"event": "Google Generative AI library is not available. Some features will be disabled.",
-"level": "warning",
-"logger": "readmeai.models.base",
-"timestamp": "2026-01-03T06:57:21.830134Z",
-"filename": "gemini.py",
-"func_name": "__init__",
-"lineno": 45
-}
-{
-"event": "Cannot make request: Google Generative AI library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2026-01-03T06:57:21.832418Z",
-"filename": "gemini.py",
-"func_name": "_make_request",
-"lineno": 104
-}
-{
-"event": "Cannot make request: Google Generative AI library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2026-01-03T06:57:21.832800Z",
-"filename": "gemini.py",
-"func_name": "_make_request",
-"lineno": 104
-}
-{
-"event": "Cannot make request: Google Generative AI library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2026-01-03T06:57:21.833027Z",
-"filename": "gemini.py",
-"func_name": "_make_request",
-"lineno": 104
-}
-{
-"event": "Cannot make request: Google Generative AI library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2026-01-03T06:57:21.833275Z",
-"filename": "gemini.py",
-"func_name": "_make_request",
-"lineno": 104
-}
-{
-"event": "README.md file generated successfully.",
-"level": "info",
-"logger": "readmeai.__main__",
-"timestamp": "2026-01-03T06:57:21.838563Z",
-"filename": "__main__.py",
-"func_name": "log_process_completion",
-"lineno": 110
-}
-{
-"event": "Output file saved @ /tmp/tmp1yf3ytlf.md",
-"level": "info",
-"logger": "readmeai.__main__",
-"timestamp": "2026-01-03T06:57:21.838696Z",
-"filename": "__main__.py",
-"func_name": "log_process_completion",
-"lineno": 111
-}
-{
-"event": "Share with us @ github.com/eli64s/readme-ai/discussions",
-"level": "info",
-"logger": "readmeai.__main__",
-"timestamp": "2026-01-03T06:57:21.838806Z",
-"filename": "__main__.py",
-"func_name": "log_process_completion",
-"lineno": 112
-}
+<p align="center">
+    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
+</p>
+<p align="center"><h1 align="center">CHATBOT-PROJECT-HALO-</h1></p>
+<p align="center">
+	<em><code>❯ REPLACE-ME</code></em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/BerlinImmanuelSanthosh/Chatbot-Project-HALO-?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/BerlinImmanuelSanthosh/Chatbot-Project-HALO-?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/BerlinImmanuelSanthosh/Chatbot-Project-HALO-?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/BerlinImmanuelSanthosh/Chatbot-Project-HALO-?style=default&color=0080ff" alt="repo-language-count">
+</p>
+<p align="center"><!-- default option, no dependency badges. -->
+</p>
+<p align="center">
+	<!-- default option, no dependency badges. -->
+</p>
+<br>
+
+## 🔗 Table of Contents
+
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📁 Project Structure](#-project-structure)
+  - [📂 Project Index](#-project-index)
+- [🚀 Getting Started](#-getting-started)
+  - [☑️ Prerequisites](#-prerequisites)
+  - [⚙️ Installation](#-installation)
+  - [🤖 Usage](#🤖-usage)
+  - [🧪 Testing](#🧪-testing)
+- [📌 Project Roadmap](#-project-roadmap)
+- [🔰 Contributing](#-contributing)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
+
+---
+
+## 📍 Overview
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## 👾 Features
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## 📁 Project Structure
+
+```sh
+└── Chatbot-Project-HALO-/
+    ├── Main_Chatbot.ipynb
+    └── README.md
+```
+
+
+### 📂 Project Index
+<details open>
+	<summary><b><code>CHATBOT-PROJECT-HALO-/</code></b></summary>
+	<details> <!-- __root__ Submodule -->
+		<summary><b>__root__</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/BerlinImmanuelSanthosh/Chatbot-Project-HALO-/blob/master/Main_Chatbot.ipynb'>Main_Chatbot.ipynb</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+</details>
+
+---
+## 🚀 Getting Started
+
+### ☑️ Prerequisites
+
+Before getting started with Chatbot-Project-HALO-, ensure your runtime environment meets the following requirements:
+
+- **Programming Language:** JupyterNotebook
+
+
+### ⚙️ Installation
+
+Install Chatbot-Project-HALO- using one of the following methods:
+
+**Build from source:**
+
+1. Clone the Chatbot-Project-HALO- repository:
+```sh
+❯ git clone https://github.com/BerlinImmanuelSanthosh/Chatbot-Project-HALO-
+```
+
+2. Navigate to the project directory:
+```sh
+❯ cd Chatbot-Project-HALO-
+```
+
+3. Install the project dependencies:
+
+echo 'INSERT-INSTALL-COMMAND-HERE'
+
+
+
+### 🤖 Usage
+Run Chatbot-Project-HALO- using the following command:
+echo 'INSERT-RUN-COMMAND-HERE'
+
+### 🧪 Testing
+Run the test suite using the following command:
+echo 'INSERT-TEST-COMMAND-HERE'
+
+---
+## 📌 Project Roadmap
+
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
+
+---
+
+## 🔰 Contributing
+
+- **💬 [Join the Discussions](https://github.com/BerlinImmanuelSanthosh/Chatbot-Project-HALO-/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/BerlinImmanuelSanthosh/Chatbot-Project-HALO-/issues)**: Submit bugs found or log feature requests for the `Chatbot-Project-HALO-` project.
+- **💡 [Submit Pull Requests](https://github.com/BerlinImmanuelSanthosh/Chatbot-Project-HALO-/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone https://github.com/BerlinImmanuelSanthosh/Chatbot-Project-HALO-
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to github**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/BerlinImmanuelSanthosh/Chatbot-Project-HALO-/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=BerlinImmanuelSanthosh/Chatbot-Project-HALO-">
+   </a>
+</p>
+</details>
+
+---
+
+## 🎗 License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+## 🙌 Acknowledgments
+
+- List any resources, contributors, inspiration, etc. here.
+
+---
